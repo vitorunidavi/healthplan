@@ -3,60 +3,6 @@
 Sistema desenvolvido em Python aplicando princípios avançados de Engenharia de Software, incluindo **Strategy**, **Factory Method**, **Decorator**, **Observer**, **Adapter** e **Singleton**, além de uma arquitetura organizada em módulos.  
 Projeto desenvolvido por **Vitor Hugo Tavares**.
 
----
-
-## 📁 Estrutura do Projeto
-
-healthplan/
-│
-├── app/
-│   └── main.py
-│
-├── domain/
-│   ├── customer.py
-│   ├── plan.py
-│   ├── usage.py
-│   └── __init__.py
-│
-├── strategies/
-│   ├── age_pricing.py
-│   ├── copay_pricing.py
-│   └── coparticipation.py
-│
-├── decorators/
-│   ├── base_rider.py
-│   ├── dental_rider.py
-│   ├── vision_rider.py
-│   └── __init__.py
-│
-├── factory/
-│   ├── plan_factory.py
-│   └── __init__.py
-│
-├── observers/
-│   ├── observer.py
-│   └── __init__.py
-│
-├── adapter/
-│   ├── usage_adapter.py
-│   └── __init__.py
-│
-├── singleton/
-│   ├── logger.py
-│   └── __init__.py
-│
-├── tests/
-│   ├── test_adapter.py
-│   ├── test_decorator.py
-│   ├── test_factory.py
-│   ├── test_observer.py
-│   ├── test_singleton.py
-│   ├── test_strategy.py
-│   └── dummy_classes.py
-│
-└── README.md
-
----
 
 ## 🧠 Padrões de Projeto Utilizados
 
@@ -153,10 +99,3 @@ python app/main.py
 Projeto desenvolvido por:
 
 **Vitor Hugo Tavares**  
-Estudante de Sistemas de Informação
-
----
-
-## 📄 Licença
-
-Uso acadêmico / educacional.
